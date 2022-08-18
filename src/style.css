@@ -111,3 +111,13 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
+
+.time {
+  font-size: 60px;
+}
+
+.date {
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
