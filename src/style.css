@@ -44,3 +44,7 @@ body {
   top: 100px;
   cursor: pointer;
 }
+
+.toogle:focus {
+  outline: none;
+}
