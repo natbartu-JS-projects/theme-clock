@@ -40,3 +40,12 @@ toggle.addEventListener("click", (e) => {
     e.target.inner.innerHTML = "Light Mode";
   }
 });
+
+function setTime() {
+  const time = new Date();
+  const month = time.getMonth();
+  const day = time.getDay();
+  const hours = time.getHours();
+  const hoursForClock = hours % 12;
+}
+setTime();
