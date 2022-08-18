@@ -22,7 +22,6 @@ html.dark {
   color: var(--primary-color)
 }
 
-
 body {
   font-family: 'Silkscreen', sans-serif;
   display: flex;
@@ -35,3 +34,13 @@ body {
   font-size: 30px;
 }
 
+.toggle {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0;
+  border-radius: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 100px;
+  cursor: pointer;
+}
